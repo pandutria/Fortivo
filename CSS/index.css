@@ -1,0 +1,110 @@
+:root {
+  --poppins-semibold: poppins-semibold;
+  --poppins-bold: poppins-bold;
+  --poppins-medium: poppins-medium;
+  --poppins-regular: poppins-regular;
+  --poppins-thin: poppins-thin;
+  --primary-color: #50B498;
+  --black-color: #212121;
+}
+
+@font-face {
+  font-family: poppins-semibold;
+  src: url("../assests/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: poppins-thin;
+  src: url("../assests/fonts/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("../assests/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppins-medium;
+  src: url("../assests/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: poppins-regular;
+  src: url("../assests/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section-home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-home h1 {
+    font-size: 45px;
+    width: 500px;
+    font-family: var(--poppins-semibold);
+
+}
+
+.text-home p {
+    font-size: 18px;
+    width: 450px;
+    font-family: var(--poppins-medium);
+
+}
+
+.text-home h2 {
+    margin-top: 30px;
+    font-size: 18px;
+    width: 420px;
+    font-family: var(--poppins-semibold);
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 350;
+    padding: 30px 35px 30px 35px;
+    border-radius: 12px;
+    text-align: justify;
+}
+
+.text-home a {
+    text-decoration: none;
+    font-size: 18px;
+    width: 420px;
+    font-family: var(--poppins-medium);
+    background-color: var(--black-color);
+    color: white;
+    font-weight: 350;
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.section-home img {
+    width: 800px;
+    height: auto;
+    margin-left: -100px;
+}
