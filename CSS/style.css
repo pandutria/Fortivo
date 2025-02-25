@@ -8,7 +8,7 @@
   --secondary-color: #107e2f;
   --black-color: #212121;
   --gray-color: #b1b1b1;
-  --semi-gray-color: #8f8f8f;
+  --semi-gray-color: #898989;
 }
 
 @font-face {
@@ -221,4 +221,148 @@ body::-webkit-scrollbar-thumb:hover {
 .section-home img {
     width: 640px;
     height: auto;
+}
+
+.booking-doctor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.booking-doctor img {
+  width: 380px;
+  height: auto;
+}
+.booking-doctor .booking-doctor-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 40px;
+}
+
+.booking-doctor .booking-doctor-text h1 {
+  font-size: 40px;
+  font-family: var(--poppins-semibold);
+  text-align: justify;
+  font-weight: 400;
+  width: 500px;
+  text-align: justify;
+}
+
+
+.booking-doctor .booking-doctor-text a {
+  background: linear-gradient(to left, #468585 0%, #50b498 100%);
+  border-radius: 10px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.booking-doctor .booking-doctor-text a p {
+  color: white;
+  font-size: 13px;
+  font-family: var(--poppins-bold);
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.booking-doctor .booking-doctor-text a img {
+    width: 20px;
+    height: auto;
+}
+
+
+.section-tips {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  align-items: center;
+}
+
+.section-tips h1 {
+  font-family: var(--poppins-semibold);
+  font-size: 36px;
+}
+
+.section-tips span {
+  color: var(--secondary-color);
+}
+
+.section-tips p {
+  font-size: 15px;
+  font-family: var(--poppins-medium);
+  color: var(--semi-gray-color);
+  width: 600px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.section-tips .container-item-tips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  gap: 20px 35px;
+}
+
+.section-tips .container-item-tips .item-tips {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(76, 175, 80, 0.15);
+  border-radius: 24px;
+  padding: 25px;
+  
+}
+
+.section-tips .container-item-tips .item-tips .item-tips-number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-tips .container-item-tips .item-tips .item-tips-number img {
+  width: 35px;
+  height: auto;
+  object-fit: contain;
+}
+
+.section-tips .container-item-tips .item-tips .item-tips-number h1 {
+  font-size: 25px;
+  font-family: var(--poppins-semibold);
+  margin-left: 10px;
+  font-weight: 400;
+  width: 400px;
+  color: #1C1C1C;
+}
+
+
+.section-tips .container-item-tips .item-tips .item-tips-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.section-tips .container-item-tips .item-tips .item-tips-text p {
+  font-size: 13px;
+  font-family: var(--poppins-medium );
+  font-weight: 300;
+  color: #1C1C1C;
+  text-align: justify;
+  color: #464646;
+  width: 330px;
+}
+
+.section-tips .container-item-tips .item-tips .item-tips-text img {
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
 }
